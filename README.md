@@ -1,4 +1,4 @@
-# Movie Explorer
+# Explorador de Películas
 
 Aplicación web en React que consume la API de [The Movie Database (TMDB)](https://developer.themoviedb.org/docs) para buscar películas por título, ver las películas populares y gestionar una lista de favoritos que se conserva entre sesiones (localStorage).
 
