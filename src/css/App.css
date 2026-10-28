@@ -1,0 +1,27 @@
+.main-content {
+  padding: calc(var(--navbar-height) + 2rem) 2rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 0 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: calc(var(--navbar-height) + 1rem) 1rem 1rem;
+  }
+
+  .movies-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+  }
+}
