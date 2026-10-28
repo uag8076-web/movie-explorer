@@ -26,4 +26,3 @@ dist-ssr
 # Variables de entorno (API Key de TMDB)
 .env
 .env.*
-!.env.example

@@ -43,7 +43,7 @@ src/
    npm install
    ```
 
-2. Crea un archivo `.env` en la raíz (puedes copiar `.env.example`) con tu API Key de TMDB:
+2. Crea un archivo `.env` en la raíz con tu API Key de TMDB:
 
    ```
    VITE_TMDB_API_KEY=tu_api_key
